@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.DS_Store
+artifacts/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# Tool state and generated output
+coverage/
+.vite/
+*.log
+.codex/
+.sites-checkout/
+.sites-runtime/
+
+# Private hosting and development notes
+.openai/
+PROGRESS.md
